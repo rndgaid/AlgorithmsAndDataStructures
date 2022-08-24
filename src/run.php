@@ -5,8 +5,8 @@ namespace AlgorithmsAndDataStructures;
 require_once 'binarySearchRec.php';
 
 $arr = [1, 3, 5, 7, 9, 11, 13];
-$key = 2;
+$value = 113;
 $low = 0;
-$high = 6;
+$high = count($arr) - 1;
 
-print binarySearchRec($arr, $key, $low, $high);
+print binarySearchRec($arr, $value, $low, $high);
